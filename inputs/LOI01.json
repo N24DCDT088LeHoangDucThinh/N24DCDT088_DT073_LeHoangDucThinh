@@ -1,0 +1,14 @@
+{
+  "id": "LOI01",
+  "goal": "Nguồn không hợp lệ",
+  "op": "main",
+  "n": 3,
+  "canh": [
+    [
+      1,
+      2
+    ]
+  ],
+  "s": 0,
+  "error": true
+}

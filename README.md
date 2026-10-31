@@ -4,17 +4,17 @@ Lê Hoàng Đức Thịnh — N24DCDT088 — D24CQDT01-N — INT13185 nhóm 03.
 Giảng viên: Hồ Nhựt Minh.
 
 ## Yêu cầu và cách chạy trên Windows
-Python 3.11.15, chỉ dùng thư viện chuẩn. Không cần pip install.
+Môi trường dự kiến trên máy cá nhân: Python 3.14.5; xác nhận bằng lệnh bên dưới. Chỉ dùng thư viện chuẩn. Không cần pip install.
 Mở VS Code tại thư mục chứa demo.py, mở Terminal PowerShell.
 ```powershell
-py -3 --version
-py -3 demo.py --example 1
-py -3 demo.py --example 2
-py -3 demo.py
-py -3 test/run_tests.py --out docs/ket_qua_kiem_tra/kiem_thu_may_ca_nhan.json
-py -3 survey.py
+python --version
+python demo.py --example 1
+python demo.py --example 2
+python demo.py
+python test/run_tests.py --out docs/ket_qua_kiem_tra/kiem_thu_may_ca_nhan.json
+python survey.py
 ```
-Nếu máy không có lệnh py nhưng có Python 3, thay `py -3` bằng `python`.
+Nếu máy không có lệnh py nhưng có Python 3, thay `python` bằng `python`.
 Linux/macOS dùng `python3`. Nhập mới bằng bàn phím với `demo.py` không đối số.
 Ví dụ 1 có thể thêm `--trace` để in vào/ra và quay lui.
 
@@ -34,3 +34,10 @@ Tự cài DFS đệ quy và visited; danh sách kề được sort trước. Out
 
 ## Tài liệu tham khảo
 Phiếu giao đề tài cá nhân, giáo trình INT1306 và hướng dẫn học phần INT13185 nhóm 03 do giảng viên cung cấp ngày 17/10/2026.
+
+## Đối chiếu phiên bản và minh chứng
+Các kết quả trong docs/ket_qua_kiem_tra là kết quả kiểm tra khi chuẩn bị mã, không thay thế ảnh chạy cá nhân A01–A11. Chạy lại trên máy cá nhân để xác nhận phiên bản Python, lưu log và chụp ảnh. Điền SHA C/S, permalink và kết quả thực tế vào ThongTinNop.txt sau khi chốt phiên bản.
+
+## Bằng chứng máy cá nhân và tình trạng GitHub
+Log kiem_thu_may_ca_nhan.json: Python 3.14.5, 22/22 PASS, 234 phép kiểm. A09 gồm A09a.png và A09b.png. A10 hiện thể hiện clone GitHub bị lỗi thiếu src; cần cập nhật đủ cấu trúc rồi clone chạy lại. A11 và C/S chưa hoàn tất.
+Thư mục src phải nằm cùng cấp với demo.py; giữ cả src/dfs.py và src/__init__.py.

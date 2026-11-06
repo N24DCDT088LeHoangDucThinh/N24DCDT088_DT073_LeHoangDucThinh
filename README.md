@@ -52,6 +52,6 @@ SHA C: `0347b0a26d4137b2efe6a4a37920262f9d85091b`.
 
 [ Mở website minh họa ](https://n24dcdt088-dt073-lehoangducthinh.onrender.com/)
 
-Website sử dụng HTML, CSS và JavaScript, gồm `index.html`, `style.css` và `script.js` tại thư mục gốc. Mở đường dẫn trên trình duyệt để nhập dữ liệu và xem kết quả minh họa. Chương trình Python và cách chạy kiểm thử được giữ như hướng dẫn ở trên.
+Website sử dụng HTML, CSS và JavaScript, gồm `index.html`, `style.css` và `script.js` tại thư mục gốc. Mở đường dẫn trên trình duyệt để nhập dữ liệu và xem kết quả minh họa. 
 
 
